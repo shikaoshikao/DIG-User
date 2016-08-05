@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4522F421D549E5500486579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F411D549E5500486579 /* AppDelegate.swift */; };
+		D4522F441D549E5500486579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F431D549E5500486579 /* ViewController.swift */; };
+		D4522F471D549E5500486579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4522F451D549E5500486579 /* Main.storyboard */; };
+		D4522F491D549E5500486579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4522F481D549E5500486579 /* Assets.xcassets */; };
+		D4522F4C1D549E5500486579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4522F4A1D549E5500486579 /* LaunchScreen.storyboard */; };
+		D4522F571D549E5500486579 /* DIGappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F561D549E5500486579 /* DIGappTests.swift */; };
+		D4522F621D549E5500486579 /* DIGappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F611D549E5500486579 /* DIGappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4522F531D549E5500486579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4522F361D549E5500486579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4522F3D1D549E5500486579;
+			remoteInfo = DIGapp;
+		};
+		D4522F5E1D549E5500486579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4522F361D549E5500486579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4522F3D1D549E5500486579;
+			remoteInfo = DIGapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4522F3E1D549E5500486579 /* DIGapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIGapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4522F411D549E5500486579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4522F431D549E5500486579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4522F461D549E5500486579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4522F481D549E5500486579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4522F4B1D549E5500486579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4522F4D1D549E5500486579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4522F521D549E5500486579 /* DIGappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIGappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4522F561D549E5500486579 /* DIGappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIGappTests.swift; sourceTree = "<group>"; };
+		D4522F581D549E5500486579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4522F5D1D549E5500486579 /* DIGappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIGappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4522F611D549E5500486579 /* DIGappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIGappUITests.swift; sourceTree = "<group>"; };
+		D4522F631D549E5500486579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4522F3B1D549E5500486579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4522F4F1D549E5500486579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4522F5A1D549E5500486579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4522F351D549E5500486579 = {
+			isa = PBXGroup;
+			children = (
+				D4522F401D549E5500486579 /* DIGapp */,
+				D4522F551D549E5500486579 /* DIGappTests */,
+				D4522F601D549E5500486579 /* DIGappUITests */,
+				D4522F3F1D549E5500486579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4522F3F1D549E5500486579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4522F3E1D549E5500486579 /* DIGapp.app */,
+				D4522F521D549E5500486579 /* DIGappTests.xctest */,
+				D4522F5D1D549E5500486579 /* DIGappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4522F401D549E5500486579 /* DIGapp */ = {
+			isa = PBXGroup;
+			children = (
+				D4522F411D549E5500486579 /* AppDelegate.swift */,
+				D4522F431D549E5500486579 /* ViewController.swift */,
+				D4522F451D549E5500486579 /* Main.storyboard */,
+				D4522F481D549E5500486579 /* Assets.xcassets */,
+				D4522F4A1D549E5500486579 /* LaunchScreen.storyboard */,
+				D4522F4D1D549E5500486579 /* Info.plist */,
+			);
+			path = DIGapp;
+			sourceTree = "<group>";
+		};
+		D4522F551D549E5500486579 /* DIGappTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4522F561D549E5500486579 /* DIGappTests.swift */,
+				D4522F581D549E5500486579 /* Info.plist */,
+			);
+			path = DIGappTests;
+			sourceTree = "<group>";
+		};
+		D4522F601D549E5500486579 /* DIGappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4522F611D549E5500486579 /* DIGappUITests.swift */,
+				D4522F631D549E5500486579 /* Info.plist */,
+			);
+			path = DIGappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4522F3D1D549E5500486579 /* DIGapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4522F661D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGapp" */;
+			buildPhases = (
+				D4522F3A1D549E5500486579 /* Sources */,
+				D4522F3B1D549E5500486579 /* Frameworks */,
+				D4522F3C1D549E5500486579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DIGapp;
+			productName = DIGapp;
+			productReference = D4522F3E1D549E5500486579 /* DIGapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4522F511D549E5500486579 /* DIGappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4522F691D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGappTests" */;
+			buildPhases = (
+				D4522F4E1D549E5500486579 /* Sources */,
+				D4522F4F1D549E5500486579 /* Frameworks */,
+				D4522F501D549E5500486579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4522F541D549E5500486579 /* PBXTargetDependency */,
+			);
+			name = DIGappTests;
+			productName = DIGappTests;
+			productReference = D4522F521D549E5500486579 /* DIGappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4522F5C1D549E5500486579 /* DIGappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4522F6C1D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGappUITests" */;
+			buildPhases = (
+				D4522F591D549E5500486579 /* Sources */,
+				D4522F5A1D549E5500486579 /* Frameworks */,
+				D4522F5B1D549E5500486579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4522F5F1D549E5500486579 /* PBXTargetDependency */,
+			);
+			name = DIGappUITests;
+			productName = DIGappUITests;
+			productReference = D4522F5D1D549E5500486579 /* DIGappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4522F361D549E5500486579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yoshiki Kawakita";
+				TargetAttributes = {
+					D4522F3D1D549E5500486579 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D4522F511D549E5500486579 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D4522F3D1D549E5500486579;
+					};
+					D4522F5C1D549E5500486579 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D4522F3D1D549E5500486579;
+					};
+				};
+			};
+			buildConfigurationList = D4522F391D549E5500486579 /* Build configuration list for PBXProject "DIGapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4522F351D549E5500486579;
+			productRefGroup = D4522F3F1D549E5500486579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4522F3D1D549E5500486579 /* DIGapp */,
+				D4522F511D549E5500486579 /* DIGappTests */,
+				D4522F5C1D549E5500486579 /* DIGappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4522F3C1D549E5500486579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4522F4C1D549E5500486579 /* LaunchScreen.storyboard in Resources */,
+				D4522F491D549E5500486579 /* Assets.xcassets in Resources */,
+				D4522F471D549E5500486579 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4522F501D549E5500486579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4522F5B1D549E5500486579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4522F3A1D549E5500486579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4522F441D549E5500486579 /* ViewController.swift in Sources */,
+				D4522F421D549E5500486579 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4522F4E1D549E5500486579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4522F571D549E5500486579 /* DIGappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4522F591D549E5500486579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4522F621D549E5500486579 /* DIGappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4522F541D549E5500486579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4522F3D1D549E5500486579 /* DIGapp */;
+			targetProxy = D4522F531D549E5500486579 /* PBXContainerItemProxy */;
+		};
+		D4522F5F1D549E5500486579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4522F3D1D549E5500486579 /* DIGapp */;
+			targetProxy = D4522F5E1D549E5500486579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4522F451D549E5500486579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4522F461D549E5500486579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4522F4A1D549E5500486579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4522F4B1D549E5500486579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4522F641D549E5500486579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4522F651D549E5500486579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4522F671D549E5500486579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DIGapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.DIGapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4522F681D549E5500486579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DIGapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.DIGapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4522F6A1D549E5500486579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DIGappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.DIGappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIGapp.app/DIGapp";
+			};
+			name = Debug;
+		};
+		D4522F6B1D549E5500486579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DIGappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.DIGappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIGapp.app/DIGapp";
+			};
+			name = Release;
+		};
+		D4522F6D1D549E5500486579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DIGappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.DIGappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DIGapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4522F6E1D549E5500486579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DIGappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.DIGappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DIGapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4522F391D549E5500486579 /* Build configuration list for PBXProject "DIGapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4522F641D549E5500486579 /* Debug */,
+				D4522F651D549E5500486579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4522F661D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4522F671D549E5500486579 /* Debug */,
+				D4522F681D549E5500486579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4522F691D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4522F6A1D549E5500486579 /* Debug */,
+				D4522F6B1D549E5500486579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4522F6C1D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4522F6D1D549E5500486579 /* Debug */,
+				D4522F6E1D549E5500486579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4522F361D549E5500486579 /* Project object */;
+}
