@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A24DEBC18586B8E49C98D4C /* Pods_DIGapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93733DD2C23C77B7B0E77E4C /* Pods_DIGapp.framework */; };
+		90733142FEA1C9129872D566 /* Pods_DIGappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA134CBB4CB617A35A9CFE /* Pods_DIGappUITests.framework */; };
+		D43738741D6310880064138B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D43738731D6310880064138B /* GoogleService-Info.plist */; };
+		D43738761D631F370064138B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43738751D631F370064138B /* ViewController.swift */; };
 		D4522F421D549E5500486579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F411D549E5500486579 /* AppDelegate.swift */; };
-		D4522F441D549E5500486579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F431D549E5500486579 /* ViewController.swift */; };
+		D4522F441D549E5500486579 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F431D549E5500486579 /* homeViewController.swift */; };
 		D4522F471D549E5500486579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4522F451D549E5500486579 /* Main.storyboard */; };
 		D4522F491D549E5500486579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4522F481D549E5500486579 /* Assets.xcassets */; };
 		D4522F4C1D549E5500486579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4522F4A1D549E5500486579 /* LaunchScreen.storyboard */; };
 		D4522F571D549E5500486579 /* DIGappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F561D549E5500486579 /* DIGappTests.swift */; };
 		D4522F621D549E5500486579 /* DIGappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F611D549E5500486579 /* DIGappUITests.swift */; };
+		D4522F701D55C76100486579 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4522F6F1D55C76100486579 /* UIImage+Gif.swift */; };
+		D4522F721D55C7AF00486579 /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = D4522F711D55C7AF00486579 /* sample.gif */; };
+		D468B55B1D60592200F42A69 /* activitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468B55A1D60592200F42A69 /* activitiesViewController.swift */; };
+		D468B55D1D60593700F42A69 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468B55C1D60593700F42A69 /* chatViewController.swift */; };
+		F4030E414C87076155B6C66C /* Pods_DIGappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11773D4E46873AFEA017302 /* Pods_DIGappTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FA134CBB4CB617A35A9CFE /* Pods_DIGappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIGappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E00CF33796952C6A1D09AAD /* Pods-DIGappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIGappTests/Pods-DIGappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50820D1215A4E2AD19B08083 /* Pods-DIGapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIGapp/Pods-DIGapp.release.xcconfig"; sourceTree = "<group>"; };
+		603A935C23F660E55D4CF92D /* Pods-DIGappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIGappUITests/Pods-DIGappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75237B74802BDBEA549C39B2 /* Pods-DIGapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIGapp/Pods-DIGapp.debug.xcconfig"; sourceTree = "<group>"; };
+		93733DD2C23C77B7B0E77E4C /* Pods_DIGapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIGapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11773D4E46873AFEA017302 /* Pods_DIGappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIGappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA0FAEAB18B81F45D981E77 /* Pods-DIGappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIGappTests/Pods-DIGappTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2A051CB040D0DAE873089EC /* Pods-DIGappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIGappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIGappUITests/Pods-DIGappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D43738731D6310880064138B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D43738751D631F370064138B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4522F3E1D549E5500486579 /* DIGapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIGapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4522F411D549E5500486579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4522F431D549E5500486579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4522F431D549E5500486579 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		D4522F461D549E5500486579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4522F481D549E5500486579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4522F4B1D549E5500486579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,10 @@
 		D4522F5D1D549E5500486579 /* DIGappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIGappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4522F611D549E5500486579 /* DIGappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIGappUITests.swift; sourceTree = "<group>"; };
 		D4522F631D549E5500486579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4522F6F1D55C76100486579 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		D4522F711D55C7AF00486579 /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
+		D468B55A1D60592200F42A69 /* activitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activitiesViewController.swift; sourceTree = "<group>"; };
+		D468B55C1D60593700F42A69 /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A24DEBC18586B8E49C98D4C /* Pods_DIGapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4030E414C87076155B6C66C /* Pods_DIGappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90733142FEA1C9129872D566 /* Pods_DIGappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DF6AB1FFA2F577BBD4DDD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93733DD2C23C77B7B0E77E4C /* Pods_DIGapp.framework */,
+				B11773D4E46873AFEA017302 /* Pods_DIGappTests.framework */,
+				04FA134CBB4CB617A35A9CFE /* Pods_DIGappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAECE35CF7F65FC88D051EF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75237B74802BDBEA549C39B2 /* Pods-DIGapp.debug.xcconfig */,
+				50820D1215A4E2AD19B08083 /* Pods-DIGapp.release.xcconfig */,
+				1E00CF33796952C6A1D09AAD /* Pods-DIGappTests.debug.xcconfig */,
+				CDA0FAEAB18B81F45D981E77 /* Pods-DIGappTests.release.xcconfig */,
+				603A935C23F660E55D4CF92D /* Pods-DIGappUITests.debug.xcconfig */,
+				D2A051CB040D0DAE873089EC /* Pods-DIGappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D4522F351D549E5500486579 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				D4522F551D549E5500486579 /* DIGappTests */,
 				D4522F601D549E5500486579 /* DIGappUITests */,
 				D4522F3F1D549E5500486579 /* Products */,
+				BAECE35CF7F65FC88D051EF5 /* Pods */,
+				5DF6AB1FFA2F577BBD4DDD65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +150,17 @@
 			isa = PBXGroup;
 			children = (
 				D4522F411D549E5500486579 /* AppDelegate.swift */,
-				D4522F431D549E5500486579 /* ViewController.swift */,
+				D4522F431D549E5500486579 /* homeViewController.swift */,
+				D468B55A1D60592200F42A69 /* activitiesViewController.swift */,
+				D468B55C1D60593700F42A69 /* chatViewController.swift */,
 				D4522F451D549E5500486579 /* Main.storyboard */,
+				D43738751D631F370064138B /* ViewController.swift */,
 				D4522F481D549E5500486579 /* Assets.xcassets */,
 				D4522F4A1D549E5500486579 /* LaunchScreen.storyboard */,
 				D4522F4D1D549E5500486579 /* Info.plist */,
+				D43738731D6310880064138B /* GoogleService-Info.plist */,
+				D4522F731D55C7BB00486579 /* libralies */,
+				D4522F741D55C7F300486579 /* images */,
 			);
 			path = DIGapp;
 			sourceTree = "<group>";
@@ -125,6 +183,22 @@
 			path = DIGappUITests;
 			sourceTree = "<group>";
 		};
+		D4522F731D55C7BB00486579 /* libralies */ = {
+			isa = PBXGroup;
+			children = (
+				D4522F6F1D55C76100486579 /* UIImage+Gif.swift */,
+			);
+			name = libralies;
+			sourceTree = "<group>";
+		};
+		D4522F741D55C7F300486579 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D4522F711D55C7AF00486579 /* sample.gif */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4522F661D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGapp" */;
 			buildPhases = (
+				9B639A124DBB8200BD63B4C5 /* [CP] Check Pods Manifest.lock */,
 				D4522F3A1D549E5500486579 /* Sources */,
 				D4522F3B1D549E5500486579 /* Frameworks */,
 				D4522F3C1D549E5500486579 /* Resources */,
+				119EFFCF466BAD61333E3533 /* [CP] Embed Pods Frameworks */,
+				C8AB64FAE863797243B16325 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4522F691D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGappTests" */;
 			buildPhases = (
+				56F39E03FDE1CEFAEEF77802 /* [CP] Check Pods Manifest.lock */,
 				D4522F4E1D549E5500486579 /* Sources */,
 				D4522F4F1D549E5500486579 /* Frameworks */,
 				D4522F501D549E5500486579 /* Resources */,
+				369FE75216803A23869F81F1 /* [CP] Embed Pods Frameworks */,
+				EE6A7550E57DC4901A799C2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4522F6C1D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGappUITests" */;
 			buildPhases = (
+				3B83A8AE16A83E957A62FF40 /* [CP] Check Pods Manifest.lock */,
 				D4522F591D549E5500486579 /* Sources */,
 				D4522F5A1D549E5500486579 /* Frameworks */,
 				D4522F5B1D549E5500486579 /* Resources */,
+				EF9EBCCA4ED38631523F8A8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +275,7 @@
 				TargetAttributes = {
 					D4522F3D1D549E5500486579 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PS5XKJ722W;
 					};
 					D4522F511D549E5500486579 = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,7 +312,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4522F721D55C7AF00486579 /* sample.gif in Resources */,
 				D4522F4C1D549E5500486579 /* LaunchScreen.storyboard in Resources */,
+				D43738741D6310880064138B /* GoogleService-Info.plist in Resources */,
 				D4522F491D549E5500486579 /* Assets.xcassets in Resources */,
 				D4522F471D549E5500486579 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +336,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		119EFFCF466BAD61333E3533 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGapp/Pods-DIGapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		369FE75216803A23869F81F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGappTests/Pods-DIGappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B83A8AE16A83E957A62FF40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56F39E03FDE1CEFAEEF77802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B639A124DBB8200BD63B4C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AB64FAE863797243B16325 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGapp/Pods-DIGapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6A7550E57DC4901A799C2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGappTests/Pods-DIGappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9EBCCA4ED38631523F8A8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DIGappUITests/Pods-DIGappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4522F3A1D549E5500486579 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4522F441D549E5500486579 /* ViewController.swift in Sources */,
+				D43738761D631F370064138B /* ViewController.swift in Sources */,
+				D4522F701D55C76100486579 /* UIImage+Gif.swift in Sources */,
+				D468B55D1D60593700F42A69 /* chatViewController.swift in Sources */,
+				D468B55B1D60592200F42A69 /* activitiesViewController.swift in Sources */,
+				D4522F441D549E5500486579 /* homeViewController.swift in Sources */,
 				D4522F421D549E5500486579 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,28 +609,39 @@
 		};
 		D4522F671D549E5500486579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75237B74802BDBEA549C39B2 /* Pods-DIGapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DIGapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.DIGapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		D4522F681D549E5500486579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50820D1215A4E2AD19B08083 /* Pods-DIGapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DIGapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.gmail-wedliketothink.DIGapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		D4522F6A1D549E5500486579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E00CF33796952C6A1D09AAD /* Pods-DIGappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DIGappTests/Info.plist;
@@ -431,6 +654,7 @@
 		};
 		D4522F6B1D549E5500486579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA0FAEAB18B81F45D981E77 /* Pods-DIGappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DIGappTests/Info.plist;
@@ -443,6 +667,7 @@
 		};
 		D4522F6D1D549E5500486579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603A935C23F660E55D4CF92D /* Pods-DIGappUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DIGappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -455,6 +680,7 @@
 		};
 		D4522F6E1D549E5500486579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A051CB040D0DAE873089EC /* Pods-DIGappUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DIGappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +710,7 @@
 				D4522F681D549E5500486579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4522F691D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGappTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +719,7 @@
 				D4522F6B1D549E5500486579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4522F6C1D549E5500486579 /* Build configuration list for PBXNativeTarget "DIGappUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +728,7 @@
 				D4522F6E1D549E5500486579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

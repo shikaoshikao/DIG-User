@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "e2ec5dcccc9d44df1c835e7afe450a2e"
+build_time: [524677305, 190063000]
+inputs:
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/ViewController.swift": [524677304, 0]
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/UIImage+Gif.swift": [512082000, 0]
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/chatViewController.swift": [524475959, 0]
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/activitiesViewController.swift": [524475938, 0]
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/homeViewController.swift": [524645198, 0]
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/AppDelegate.swift": [524658822, 0]

@@ -1,0 +1,1242 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C6DIGapp14ViewController"
+provides-member:
+- ["C6DIGapp14ViewController", ""]
+provides-dynamic-lookup:
+- "messages"
+- "didPressSendButton"
+- "collectionView"
+- "collectionView"
+- "collectionView"
+- "collectionView"
+- "collectionView"
+- "viewDidLoad"
+depends-top-level:
+- "String"
+- "JSQMessagesViewController"
+- "JSQMessage"
+- !private "UIColor"
+- !private "UnicodeScalarType"
+- !private "JSQMessagesCollectionViewCell"
+- !private "StringLiteralType"
+- !private "Dictionary"
+- "JSQMessageBubbleImageDataSource"
+- "Int"
+- "NSDate"
+- "UICollectionView"
+- !private "FIRDatabase"
+- !private "=="
+- !private "/"
+- !private "UIFont"
+- "JSQMessageData"
+- !private "JSQMessagesAvatarImageFactory"
+- !private "AnyObject"
+- "NSIndexPath"
+- "JSQMessageAvatarImageDataSource"
+- !private "JSQMessagesBubbleImageFactory"
+- !private "??"
+- "JSQMessagesCollectionView"
+- "UIButton"
+- "ViewController"
+- "UICollectionViewCell"
+depends-member:
+- !private ["PSs9AnyObject", "FIRDatabase"]
+- ["PSs9AnyObject", "JSQMessage"]
+- !private ["PSs9AnyObject", "JSQMessagesAvatarImageFactory"]
+- !private ["PSs9AnyObject", "JSQMessagesBubbleImageFactory"]
+- !private ["PSs9AnyObject", "Key"]
+- !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UIFont"]
+- !private ["PSs9AnyObject", "Value"]
+- !private ["PSs9AnyObject", "avatarImageWithUserInitials"]
+- !private ["PSs9AnyObject", "child"]
+- !private ["PSs9AnyObject", "childByAutoId"]
+- ["PSs9AnyObject", "collectionView"]
+- !private ["PSs9AnyObject", "contentView"]
+- !private ["PSs9AnyObject", "darkGrayColor"]
+- !private ["PSs9AnyObject", "database"]
+- !private ["PSs9AnyObject", "deinit"]
+- ["PSs9AnyObject", "didPressSendButton"]
+- !private ["PSs9AnyObject", "incomingMessagesBubbleImageWithColor"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "inputToolbar"]
+- !private ["PSs9AnyObject", "lightGrayColor"]
+- ["PSs9AnyObject", "messages"]
+- !private ["PSs9AnyObject", "observeEventType"]
+- !private ["PSs9AnyObject", "outgoingMessagesBubbleImageWithColor"]
+- !private ["PSs9AnyObject", "reference"]
+- !private ["PSs9AnyObject", "reloadData"]
+- !private ["PSs9AnyObject", "row"]
+- !private ["PSs9AnyObject", "senderDisplayName"]
+- !private ["PSs9AnyObject", "senderId"]
+- !private ["PSs9AnyObject", "setValue"]
+- !private ["PSs9AnyObject", "systemFontOfSize"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "textColor"]
+- !private ["PSs9AnyObject", "textView"]
+- !private ["PSs9AnyObject", "value"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- !private ["PSs9AnyObject", "whiteColor"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "FIRDatabase"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- ["PSs11CVarArgType", "JSQMessage"]
+- !private ["PSs11CVarArgType", "JSQMessagesAvatarImageFactory"]
+- !private ["PSs11CVarArgType", "JSQMessagesBubbleImageFactory"]
+- !private ["PSs11CVarArgType", "Key"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "UIFont"]
+- !private ["PSs11CVarArgType", "Value"]
+- !private ["PSs11CVarArgType", "avatarImageWithUserInitials"]
+- !private ["PSs11CVarArgType", "child"]
+- !private ["PSs11CVarArgType", "childByAutoId"]
+- ["PSs11CVarArgType", "collectionView"]
+- !private ["PSs11CVarArgType", "contentView"]
+- !private ["PSs11CVarArgType", "darkGrayColor"]
+- !private ["PSs11CVarArgType", "database"]
+- ["PSs11CVarArgType", "didPressSendButton"]
+- !private ["PSs11CVarArgType", "incomingMessagesBubbleImageWithColor"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "inputToolbar"]
+- !private ["PSs11CVarArgType", "lightGrayColor"]
+- ["PSs11CVarArgType", "messages"]
+- !private ["PSs11CVarArgType", "observeEventType"]
+- !private ["PSs11CVarArgType", "outgoingMessagesBubbleImageWithColor"]
+- !private ["PSs11CVarArgType", "reference"]
+- !private ["PSs11CVarArgType", "reloadData"]
+- !private ["PSs11CVarArgType", "row"]
+- !private ["PSs11CVarArgType", "senderDisplayName"]
+- !private ["PSs11CVarArgType", "senderId"]
+- !private ["PSs11CVarArgType", "setValue"]
+- !private ["PSs11CVarArgType", "systemFontOfSize"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "textColor"]
+- !private ["PSs11CVarArgType", "textView"]
+- !private ["PSs11CVarArgType", "value"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- !private ["PSs11CVarArgType", "whiteColor"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Elements"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "count"]
+- ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "map"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs14CollectionType", "values"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "values"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "FIRDatabase"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- ["PSs23CustomStringConvertible", "JSQMessage"]
+- !private ["PSs23CustomStringConvertible", "JSQMessagesAvatarImageFactory"]
+- !private ["PSs23CustomStringConvertible", "JSQMessagesBubbleImageFactory"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "avatarImageWithUserInitials"]
+- !private ["PSs23CustomStringConvertible", "child"]
+- !private ["PSs23CustomStringConvertible", "childByAutoId"]
+- ["PSs23CustomStringConvertible", "collectionView"]
+- !private ["PSs23CustomStringConvertible", "contentView"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "darkGrayColor"]
+- !private ["PSs23CustomStringConvertible", "database"]
+- ["PSs23CustomStringConvertible", "didPressSendButton"]
+- !private ["PSs23CustomStringConvertible", "incomingMessagesBubbleImageWithColor"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "inputToolbar"]
+- !private ["PSs23CustomStringConvertible", "lightGrayColor"]
+- ["PSs23CustomStringConvertible", "messages"]
+- !private ["PSs23CustomStringConvertible", "observeEventType"]
+- !private ["PSs23CustomStringConvertible", "outgoingMessagesBubbleImageWithColor"]
+- !private ["PSs23CustomStringConvertible", "reference"]
+- !private ["PSs23CustomStringConvertible", "reloadData"]
+- !private ["PSs23CustomStringConvertible", "row"]
+- !private ["PSs23CustomStringConvertible", "senderDisplayName"]
+- !private ["PSs23CustomStringConvertible", "senderId"]
+- !private ["PSs23CustomStringConvertible", "setValue"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "systemFontOfSize"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "textColor"]
+- !private ["PSs23CustomStringConvertible", "textView"]
+- !private ["PSs23CustomStringConvertible", "value"]
+- !private ["PSs23CustomStringConvertible", "values"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- !private ["PSs23CustomStringConvertible", "whiteColor"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "SubSequence"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "_Element"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs10Dictionary", "values"]
+- !private ["VSs19DictionaryGenerator", "Element"]
+- !private ["VSs15DictionaryIndex", "Distance"]
+- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "values"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "FIRDatabase"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- ["PSs9Equatable", "JSQMessage"]
+- !private ["PSs9Equatable", "JSQMessagesAvatarImageFactory"]
+- !private ["PSs9Equatable", "JSQMessagesBubbleImageFactory"]
+- !private ["PSs9Equatable", "Key"]
+- !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "UIFont"]
+- !private ["PSs9Equatable", "Value"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "avatarImageWithUserInitials"]
+- !private ["PSs9Equatable", "child"]
+- !private ["PSs9Equatable", "childByAutoId"]
+- ["PSs9Equatable", "collectionView"]
+- !private ["PSs9Equatable", "contentView"]
+- !private ["PSs9Equatable", "darkGrayColor"]
+- !private ["PSs9Equatable", "database"]
+- ["PSs9Equatable", "didPressSendButton"]
+- !private ["PSs9Equatable", "incomingMessagesBubbleImageWithColor"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "inputToolbar"]
+- !private ["PSs9Equatable", "lightGrayColor"]
+- ["PSs9Equatable", "messages"]
+- !private ["PSs9Equatable", "observeEventType"]
+- !private ["PSs9Equatable", "outgoingMessagesBubbleImageWithColor"]
+- !private ["PSs9Equatable", "reference"]
+- !private ["PSs9Equatable", "reloadData"]
+- !private ["PSs9Equatable", "row"]
+- !private ["PSs9Equatable", "senderDisplayName"]
+- !private ["PSs9Equatable", "senderId"]
+- !private ["PSs9Equatable", "setValue"]
+- !private ["PSs9Equatable", "systemFontOfSize"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "textColor"]
+- !private ["PSs9Equatable", "textView"]
+- !private ["PSs9Equatable", "value"]
+- ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "whiteColor"]
+- ["PSs9Equatable", ""]
+- !private ["OSC16FIRDataEventType", "Value"]
+- !private ["CSo15FIRDataSnapshot", "value"]
+- !private ["CSo11FIRDatabase", "database"]
+- !private ["CSo11FIRDatabase", "reference"]
+- !private ["CSo16FIRDatabaseQuery", "child"]
+- !private ["CSo16FIRDatabaseQuery", "childByAutoId"]
+- !private ["CSo16FIRDatabaseQuery", "observeEventType"]
+- !private ["CSo16FIRDatabaseQuery", "setValue"]
+- !private ["CSo20FIRDatabaseReference", "child"]
+- !private ["CSo20FIRDatabaseReference", "childByAutoId"]
+- !private ["CSo20FIRDatabaseReference", "observeEventType"]
+- !private ["CSo20FIRDatabaseReference", "setValue"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "FIRDatabase"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs8Hashable", "JSQMessage"]
+- !private ["PSs8Hashable", "JSQMessagesAvatarImageFactory"]
+- !private ["PSs8Hashable", "JSQMessagesBubbleImageFactory"]
+- !private ["PSs8Hashable", "Key"]
+- !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "UIFont"]
+- !private ["PSs8Hashable", "Value"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "avatarImageWithUserInitials"]
+- !private ["PSs8Hashable", "child"]
+- !private ["PSs8Hashable", "childByAutoId"]
+- ["PSs8Hashable", "collectionView"]
+- !private ["PSs8Hashable", "contentView"]
+- !private ["PSs8Hashable", "darkGrayColor"]
+- !private ["PSs8Hashable", "database"]
+- ["PSs8Hashable", "didPressSendButton"]
+- !private ["PSs8Hashable", "incomingMessagesBubbleImageWithColor"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "inputToolbar"]
+- !private ["PSs8Hashable", "lightGrayColor"]
+- ["PSs8Hashable", "messages"]
+- !private ["PSs8Hashable", "observeEventType"]
+- !private ["PSs8Hashable", "outgoingMessagesBubbleImageWithColor"]
+- !private ["PSs8Hashable", "reference"]
+- !private ["PSs8Hashable", "reloadData"]
+- !private ["PSs8Hashable", "row"]
+- !private ["PSs8Hashable", "senderDisplayName"]
+- !private ["PSs8Hashable", "senderId"]
+- !private ["PSs8Hashable", "setValue"]
+- !private ["PSs8Hashable", "systemFontOfSize"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "textColor"]
+- !private ["PSs8Hashable", "textView"]
+- !private ["PSs8Hashable", "value"]
+- ["PSs8Hashable", "viewDidLoad"]
+- !private ["PSs8Hashable", "whiteColor"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Elements"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "count"]
+- ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "map"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["PSs9Indexable", "values"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["CSo10JSQMessage", "init"]
+- !private ["CSo10JSQMessage", "senderDisplayName"]
+- !private ["CSo10JSQMessage", "senderId"]
+- !private ["PSo14JSQMessageData", "init"]
+- !private ["PSo14JSQMessageData", "senderDisplayName"]
+- !private ["PSo14JSQMessageData", "senderId"]
+- !private ["CSo29JSQMessagesAvatarImageFactory", "avatarImageWithUserInitials"]
+- !private ["CSo29JSQMessagesBubbleImageFactory", "incomingMessagesBubbleImageWithColor"]
+- !private ["CSo29JSQMessagesBubbleImageFactory", "init"]
+- !private ["CSo29JSQMessagesBubbleImageFactory", "outgoingMessagesBubbleImageWithColor"]
+- !private ["CSo23JSQMessagesCellTextView", "textColor"]
+- !private ["CSo25JSQMessagesCollectionView", "reloadData"]
+- !private ["CSo29JSQMessagesCollectionViewCell", "textView"]
+- !private ["PSo37JSQMessagesCollectionViewCellDelegate", "reloadData"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "FIRDatabase"]
+- ["PSo35JSQMessagesCollectionViewDataSource", "JSQMessage"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "UIColor"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "UIFont"]
+- ["PSo35JSQMessagesCollectionViewDataSource", "collectionView"]
+- ["PSo35JSQMessagesCollectionViewDataSource", "didPressSendButton"]
+- ["PSo35JSQMessagesCollectionViewDataSource", "init"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "inputToolbar"]
+- ["PSo35JSQMessagesCollectionViewDataSource", "messages"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "senderDisplayName"]
+- !private ["PSo35JSQMessagesCollectionViewDataSource", "senderId"]
+- ["PSo35JSQMessagesCollectionViewDataSource", "viewDidLoad"]
+- ["PSo35JSQMessagesCollectionViewDataSource", ""]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "FIRDatabase"]
+- ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "JSQMessage"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "UIColor"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "UIFont"]
+- ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "collectionView"]
+- ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "didPressSendButton"]
+- ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "init"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "inputToolbar"]
+- ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "messages"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "senderDisplayName"]
+- !private ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "senderId"]
+- ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", "viewDidLoad"]
+- ["PSo43JSQMessagesCollectionViewDelegateFlowLayout", ""]
+- !private ["CSo27JSQMessagesComposerTextView", "text"]
+- !private ["CSo23JSQMessagesInputToolbar", "contentView"]
+- !private ["CSo29JSQMessagesToolbarContentView", "textView"]
+- !private ["CSo25JSQMessagesViewController", "AnyObject"]
+- !private ["CSo25JSQMessagesViewController", "Dictionary"]
+- !private ["CSo25JSQMessagesViewController", "FIRDatabase"]
+- ["CSo25JSQMessagesViewController", "Int"]
+- ["CSo25JSQMessagesViewController", "JSQMessage"]
+- ["CSo25JSQMessagesViewController", "JSQMessageAvatarImageDataSource"]
+- ["CSo25JSQMessagesViewController", "JSQMessageBubbleImageDataSource"]
+- ["CSo25JSQMessagesViewController", "JSQMessageData"]
+- !private ["CSo25JSQMessagesViewController", "JSQMessagesAvatarImageFactory"]
+- !private ["CSo25JSQMessagesViewController", "JSQMessagesBubbleImageFactory"]
+- ["CSo25JSQMessagesViewController", "JSQMessagesCollectionView"]
+- !private ["CSo25JSQMessagesViewController", "JSQMessagesCollectionViewCell"]
+- ["CSo25JSQMessagesViewController", "NSDate"]
+- ["CSo25JSQMessagesViewController", "NSIndexPath"]
+- ["CSo25JSQMessagesViewController", "String"]
+- ["CSo25JSQMessagesViewController", "UIButton"]
+- ["CSo25JSQMessagesViewController", "UICollectionView"]
+- ["CSo25JSQMessagesViewController", "UICollectionViewCell"]
+- !private ["CSo25JSQMessagesViewController", "UIColor"]
+- !private ["CSo25JSQMessagesViewController", "UIFont"]
+- ["CSo25JSQMessagesViewController", "collectionView"]
+- ["CSo25JSQMessagesViewController", "didPressSendButton"]
+- ["CSo25JSQMessagesViewController", "init"]
+- !private ["CSo25JSQMessagesViewController", "inputToolbar"]
+- ["CSo25JSQMessagesViewController", "messages"]
+- !private ["CSo25JSQMessagesViewController", "senderDisplayName"]
+- !private ["CSo25JSQMessagesViewController", "senderId"]
+- ["CSo25JSQMessagesViewController", "viewDidLoad"]
+- ["CSo25JSQMessagesViewController", ""]
+- !private ["PSs18LazyCollectionType", "Elements"]
+- !private ["PSs18LazyCollectionType", "Generator"]
+- !private ["PSs18LazyCollectionType", "Index"]
+- !private ["PSs18LazyCollectionType", "SubSequence"]
+- !private ["PSs18LazyCollectionType", "_Element"]
+- !private ["PSs18LazyCollectionType", "map"]
+- !private ["VSs17LazyMapCollection", "Elements"]
+- !private ["VSs17LazyMapCollection", "Generator"]
+- !private ["VSs17LazyMapCollection", "Index"]
+- !private ["VSs17LazyMapCollection", "SubSequence"]
+- !private ["VSs17LazyMapCollection", "_Element"]
+- !private ["VSs17LazyMapCollection", "deinit"]
+- !private ["VSs17LazyMapCollection", "map"]
+- !private ["VSs16LazyMapGenerator", "Element"]
+- !private ["PSs16LazySequenceType", "Elements"]
+- !private ["PSs16LazySequenceType", "Generator"]
+- !private ["PSs16LazySequenceType", "Index"]
+- !private ["PSs16LazySequenceType", "SubSequence"]
+- !private ["PSs16LazySequenceType", "_Element"]
+- !private ["PSs16LazySequenceType", "map"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "count"]
+- ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "count"]
+- ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "count"]
+- ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "FIRDatabase"]
+- ["PSo8NSCoding", "JSQMessage"]
+- !private ["PSo8NSCoding", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo8NSCoding", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo8NSCoding", "Key"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "Value"]
+- ["PSo8NSCoding", "collectionView"]
+- !private ["PSo8NSCoding", "contentView"]
+- !private ["PSo8NSCoding", "darkGrayColor"]
+- ["PSo8NSCoding", "didPressSendButton"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "inputToolbar"]
+- !private ["PSo8NSCoding", "lightGrayColor"]
+- ["PSo8NSCoding", "messages"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "row"]
+- !private ["PSo8NSCoding", "senderDisplayName"]
+- !private ["PSo8NSCoding", "senderId"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textColor"]
+- !private ["PSo8NSCoding", "textView"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Key"]
+- !private ["PSo9NSCopying", "Value"]
+- !private ["PSo9NSCopying", "darkGrayColor"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lightGrayColor"]
+- !private ["PSo9NSCopying", "row"]
+- !private ["PSo9NSCopying", "senderDisplayName"]
+- !private ["PSo9NSCopying", "senderId"]
+- !private ["PSo9NSCopying", "systemFontOfSize"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["CSo12NSDictionary", "Key"]
+- !private ["CSo12NSDictionary", "Value"]
+- !private ["PSo26NSExtensionRequestHandling", "FIRDatabase"]
+- ["PSo26NSExtensionRequestHandling", "JSQMessage"]
+- !private ["PSo26NSExtensionRequestHandling", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo26NSExtensionRequestHandling", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIFont"]
+- ["PSo26NSExtensionRequestHandling", "collectionView"]
+- ["PSo26NSExtensionRequestHandling", "didPressSendButton"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "inputToolbar"]
+- ["PSo26NSExtensionRequestHandling", "messages"]
+- !private ["PSo26NSExtensionRequestHandling", "senderDisplayName"]
+- !private ["PSo26NSExtensionRequestHandling", "senderId"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "Key"]
+- !private ["PSo17NSFastEnumeration", "Value"]
+- !private ["CSo11NSIndexPath", "row"]
+- !private ["PSo16NSMutableCopying", "Key"]
+- !private ["PSo16NSMutableCopying", "Value"]
+- !private ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Dictionary"]
+- !private ["CSo8NSObject", "FIRDatabase"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "JSQMessage"]
+- ["CSo8NSObject", "JSQMessageAvatarImageDataSource"]
+- ["CSo8NSObject", "JSQMessageBubbleImageDataSource"]
+- ["CSo8NSObject", "JSQMessageData"]
+- !private ["CSo8NSObject", "JSQMessagesAvatarImageFactory"]
+- !private ["CSo8NSObject", "JSQMessagesBubbleImageFactory"]
+- ["CSo8NSObject", "JSQMessagesCollectionView"]
+- !private ["CSo8NSObject", "JSQMessagesCollectionViewCell"]
+- !private ["CSo8NSObject", "Key"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UICollectionView"]
+- ["CSo8NSObject", "UICollectionViewCell"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "Value"]
+- !private ["CSo8NSObject", "avatarImageWithUserInitials"]
+- !private ["CSo8NSObject", "child"]
+- !private ["CSo8NSObject", "childByAutoId"]
+- ["CSo8NSObject", "collectionView"]
+- !private ["CSo8NSObject", "contentView"]
+- !private ["CSo8NSObject", "darkGrayColor"]
+- !private ["CSo8NSObject", "database"]
+- ["CSo8NSObject", "didPressSendButton"]
+- !private ["CSo8NSObject", "incomingMessagesBubbleImageWithColor"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "inputToolbar"]
+- !private ["CSo8NSObject", "lightGrayColor"]
+- ["CSo8NSObject", "messages"]
+- !private ["CSo8NSObject", "observeEventType"]
+- !private ["CSo8NSObject", "outgoingMessagesBubbleImageWithColor"]
+- !private ["CSo8NSObject", "reference"]
+- !private ["CSo8NSObject", "reloadData"]
+- !private ["CSo8NSObject", "row"]
+- !private ["CSo8NSObject", "senderDisplayName"]
+- !private ["CSo8NSObject", "senderId"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "systemFontOfSize"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textColor"]
+- !private ["CSo8NSObject", "textView"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "FIRDatabase"]
+- ["PSo16NSObjectProtocol", "JSQMessage"]
+- !private ["PSo16NSObjectProtocol", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo16NSObjectProtocol", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo16NSObjectProtocol", "Key"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "Value"]
+- !private ["PSo16NSObjectProtocol", "avatarImageWithUserInitials"]
+- !private ["PSo16NSObjectProtocol", "child"]
+- !private ["PSo16NSObjectProtocol", "childByAutoId"]
+- ["PSo16NSObjectProtocol", "collectionView"]
+- !private ["PSo16NSObjectProtocol", "contentView"]
+- !private ["PSo16NSObjectProtocol", "darkGrayColor"]
+- !private ["PSo16NSObjectProtocol", "database"]
+- ["PSo16NSObjectProtocol", "didPressSendButton"]
+- !private ["PSo16NSObjectProtocol", "incomingMessagesBubbleImageWithColor"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "inputToolbar"]
+- !private ["PSo16NSObjectProtocol", "lightGrayColor"]
+- ["PSo16NSObjectProtocol", "messages"]
+- !private ["PSo16NSObjectProtocol", "observeEventType"]
+- !private ["PSo16NSObjectProtocol", "outgoingMessagesBubbleImageWithColor"]
+- !private ["PSo16NSObjectProtocol", "reference"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "row"]
+- !private ["PSo16NSObjectProtocol", "senderDisplayName"]
+- !private ["PSo16NSObjectProtocol", "senderId"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "systemFontOfSize"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textColor"]
+- !private ["PSo16NSObjectProtocol", "textView"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "Key"]
+- !private ["PSo14NSSecureCoding", "Value"]
+- !private ["PSo14NSSecureCoding", "darkGrayColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "lightGrayColor"]
+- !private ["PSo14NSSecureCoding", "row"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs21NilLiteralConvertible", "Value"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "Value"]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- !private ["PSs16RawRepresentable", "Value"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Elements"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "count"]
+- ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "map"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs12SequenceType", "values"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "contentView"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "textColor"]
+- !private ["PSo29UIAccessibilityIdentification", "textView"]
+- !private ["PSo12UIAppearance", "contentView"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "textColor"]
+- !private ["PSo12UIAppearance", "textView"]
+- !private ["PSo21UIAppearanceContainer", "FIRDatabase"]
+- ["PSo21UIAppearanceContainer", "JSQMessage"]
+- !private ["PSo21UIAppearanceContainer", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo21UIAppearanceContainer", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- ["PSo21UIAppearanceContainer", "collectionView"]
+- !private ["PSo21UIAppearanceContainer", "contentView"]
+- ["PSo21UIAppearanceContainer", "didPressSendButton"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "inputToolbar"]
+- ["PSo21UIAppearanceContainer", "messages"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "senderDisplayName"]
+- !private ["PSo21UIAppearanceContainer", "senderId"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textColor"]
+- !private ["PSo21UIAppearanceContainer", "textView"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo16UIBarPositioning", "contentView"]
+- !private ["CSo24UICollectionReusableView", "textView"]
+- !private ["CSo16UICollectionView", "reloadData"]
+- !private ["CSo20UICollectionViewCell", "deinit"]
+- !private ["CSo20UICollectionViewCell", "textView"]
+- !private ["PSo26UICollectionViewDataSource", "FIRDatabase"]
+- ["PSo26UICollectionViewDataSource", "JSQMessage"]
+- !private ["PSo26UICollectionViewDataSource", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo26UICollectionViewDataSource", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo26UICollectionViewDataSource", "UIColor"]
+- !private ["PSo26UICollectionViewDataSource", "UIFont"]
+- ["PSo26UICollectionViewDataSource", "collectionView"]
+- ["PSo26UICollectionViewDataSource", "didPressSendButton"]
+- ["PSo26UICollectionViewDataSource", "init"]
+- !private ["PSo26UICollectionViewDataSource", "inputToolbar"]
+- ["PSo26UICollectionViewDataSource", "messages"]
+- !private ["PSo26UICollectionViewDataSource", "senderDisplayName"]
+- !private ["PSo26UICollectionViewDataSource", "senderId"]
+- ["PSo26UICollectionViewDataSource", "viewDidLoad"]
+- ["PSo26UICollectionViewDataSource", ""]
+- !private ["PSo24UICollectionViewDelegate", "FIRDatabase"]
+- ["PSo24UICollectionViewDelegate", "JSQMessage"]
+- !private ["PSo24UICollectionViewDelegate", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo24UICollectionViewDelegate", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo24UICollectionViewDelegate", "UIColor"]
+- !private ["PSo24UICollectionViewDelegate", "UIFont"]
+- ["PSo24UICollectionViewDelegate", "collectionView"]
+- ["PSo24UICollectionViewDelegate", "didPressSendButton"]
+- ["PSo24UICollectionViewDelegate", "init"]
+- !private ["PSo24UICollectionViewDelegate", "inputToolbar"]
+- ["PSo24UICollectionViewDelegate", "messages"]
+- !private ["PSo24UICollectionViewDelegate", "senderDisplayName"]
+- !private ["PSo24UICollectionViewDelegate", "senderId"]
+- ["PSo24UICollectionViewDelegate", "viewDidLoad"]
+- ["PSo24UICollectionViewDelegate", ""]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "FIRDatabase"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "JSQMessage"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "UIColor"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "UIFont"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "collectionView"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "didPressSendButton"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "init"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "inputToolbar"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "messages"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "senderDisplayName"]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "senderId"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "viewDidLoad"]
+- ["PSo34UICollectionViewDelegateFlowLayout", ""]
+- !private ["CSo7UIColor", "darkGrayColor"]
+- !private ["CSo7UIColor", "init"]
+- !private ["CSo7UIColor", "lightGrayColor"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo18UIContentContainer", "FIRDatabase"]
+- ["PSo18UIContentContainer", "JSQMessage"]
+- !private ["PSo18UIContentContainer", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo18UIContentContainer", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UIFont"]
+- ["PSo18UIContentContainer", "collectionView"]
+- ["PSo18UIContentContainer", "didPressSendButton"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "inputToolbar"]
+- ["PSo18UIContentContainer", "messages"]
+- !private ["PSo18UIContentContainer", "senderDisplayName"]
+- !private ["PSo18UIContentContainer", "senderId"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "contentView"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "textColor"]
+- !private ["PSo17UICoordinateSpace", "textView"]
+- !private ["PSo13UIDynamicItem", "contentView"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "textColor"]
+- !private ["PSo13UIDynamicItem", "textView"]
+- !private ["PSo18UIFocusEnvironment", "FIRDatabase"]
+- ["PSo18UIFocusEnvironment", "JSQMessage"]
+- !private ["PSo18UIFocusEnvironment", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo18UIFocusEnvironment", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- ["PSo18UIFocusEnvironment", "collectionView"]
+- !private ["PSo18UIFocusEnvironment", "contentView"]
+- ["PSo18UIFocusEnvironment", "didPressSendButton"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "inputToolbar"]
+- ["PSo18UIFocusEnvironment", "messages"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "senderDisplayName"]
+- !private ["PSo18UIFocusEnvironment", "senderId"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "textColor"]
+- !private ["PSo18UIFocusEnvironment", "textView"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo6UIFont", "systemFontOfSize"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["PSo10UIKeyInput", "textColor"]
+- !private ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "Dictionary"]
+- !private ["CSo11UIResponder", "FIRDatabase"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "JSQMessage"]
+- ["CSo11UIResponder", "JSQMessageAvatarImageDataSource"]
+- ["CSo11UIResponder", "JSQMessageBubbleImageDataSource"]
+- ["CSo11UIResponder", "JSQMessageData"]
+- !private ["CSo11UIResponder", "JSQMessagesAvatarImageFactory"]
+- !private ["CSo11UIResponder", "JSQMessagesBubbleImageFactory"]
+- ["CSo11UIResponder", "JSQMessagesCollectionView"]
+- !private ["CSo11UIResponder", "JSQMessagesCollectionViewCell"]
+- ["CSo11UIResponder", "NSDate"]
+- ["CSo11UIResponder", "NSIndexPath"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UICollectionView"]
+- ["CSo11UIResponder", "UICollectionViewCell"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIFont"]
+- ["CSo11UIResponder", "collectionView"]
+- !private ["CSo11UIResponder", "contentView"]
+- ["CSo11UIResponder", "didPressSendButton"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "inputToolbar"]
+- ["CSo11UIResponder", "messages"]
+- !private ["CSo11UIResponder", "reloadData"]
+- !private ["CSo11UIResponder", "senderDisplayName"]
+- !private ["CSo11UIResponder", "senderId"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textColor"]
+- !private ["CSo11UIResponder", "textView"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo12UIScrollView", "reloadData"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["CSo12UIScrollView", "textColor"]
+- !private ["PSo20UIScrollViewDelegate", "FIRDatabase"]
+- ["PSo20UIScrollViewDelegate", "JSQMessage"]
+- !private ["PSo20UIScrollViewDelegate", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo20UIScrollViewDelegate", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo20UIScrollViewDelegate", "UIColor"]
+- !private ["PSo20UIScrollViewDelegate", "UIFont"]
+- ["PSo20UIScrollViewDelegate", "collectionView"]
+- ["PSo20UIScrollViewDelegate", "didPressSendButton"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "inputToolbar"]
+- ["PSo20UIScrollViewDelegate", "messages"]
+- !private ["PSo20UIScrollViewDelegate", "senderDisplayName"]
+- !private ["PSo20UIScrollViewDelegate", "senderId"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "FIRDatabase"]
+- ["PSo16UIStateRestoring", "JSQMessage"]
+- !private ["PSo16UIStateRestoring", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo16UIStateRestoring", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UIFont"]
+- ["PSo16UIStateRestoring", "collectionView"]
+- ["PSo16UIStateRestoring", "didPressSendButton"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "inputToolbar"]
+- ["PSo16UIStateRestoring", "messages"]
+- !private ["PSo16UIStateRestoring", "senderDisplayName"]
+- !private ["PSo16UIStateRestoring", "senderId"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo11UITextInput", "textColor"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo17UITextInputTraits", "textColor"]
+- !private ["CSo10UITextView", "text"]
+- !private ["CSo10UITextView", "textColor"]
+- !private ["PSo18UITextViewDelegate", "FIRDatabase"]
+- ["PSo18UITextViewDelegate", "JSQMessage"]
+- !private ["PSo18UITextViewDelegate", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo18UITextViewDelegate", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo18UITextViewDelegate", "UIColor"]
+- !private ["PSo18UITextViewDelegate", "UIFont"]
+- ["PSo18UITextViewDelegate", "collectionView"]
+- ["PSo18UITextViewDelegate", "didPressSendButton"]
+- ["PSo18UITextViewDelegate", "init"]
+- !private ["PSo18UITextViewDelegate", "inputToolbar"]
+- ["PSo18UITextViewDelegate", "messages"]
+- !private ["PSo18UITextViewDelegate", "senderDisplayName"]
+- !private ["PSo18UITextViewDelegate", "senderId"]
+- ["PSo18UITextViewDelegate", "viewDidLoad"]
+- ["PSo18UITextViewDelegate", ""]
+- !private ["CSo9UIToolbar", "contentView"]
+- !private ["PSo18UITraitEnvironment", "FIRDatabase"]
+- ["PSo18UITraitEnvironment", "JSQMessage"]
+- !private ["PSo18UITraitEnvironment", "JSQMessagesAvatarImageFactory"]
+- !private ["PSo18UITraitEnvironment", "JSQMessagesBubbleImageFactory"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- ["PSo18UITraitEnvironment", "collectionView"]
+- !private ["PSo18UITraitEnvironment", "contentView"]
+- ["PSo18UITraitEnvironment", "didPressSendButton"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "inputToolbar"]
+- ["PSo18UITraitEnvironment", "messages"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- !private ["PSo18UITraitEnvironment", "senderDisplayName"]
+- !private ["PSo18UITraitEnvironment", "senderId"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textColor"]
+- !private ["PSo18UITraitEnvironment", "textView"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "contentView"]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "textColor"]
+- !private ["CSo6UIView", "textView"]
+- !private ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "Dictionary"]
+- !private ["CSo16UIViewController", "FIRDatabase"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "JSQMessage"]
+- ["CSo16UIViewController", "JSQMessageAvatarImageDataSource"]
+- ["CSo16UIViewController", "JSQMessageBubbleImageDataSource"]
+- ["CSo16UIViewController", "JSQMessageData"]
+- !private ["CSo16UIViewController", "JSQMessagesAvatarImageFactory"]
+- !private ["CSo16UIViewController", "JSQMessagesBubbleImageFactory"]
+- ["CSo16UIViewController", "JSQMessagesCollectionView"]
+- !private ["CSo16UIViewController", "JSQMessagesCollectionViewCell"]
+- ["CSo16UIViewController", "NSDate"]
+- ["CSo16UIViewController", "NSIndexPath"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UICollectionView"]
+- ["CSo16UIViewController", "UICollectionViewCell"]
+- !private ["CSo16UIViewController", "UIColor"]
+- !private ["CSo16UIViewController", "UIFont"]
+- ["CSo16UIViewController", "collectionView"]
+- ["CSo16UIViewController", "didPressSendButton"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "inputToolbar"]
+- ["CSo16UIViewController", "messages"]
+- !private ["CSo16UIViewController", "senderDisplayName"]
+- !private ["CSo16UIViewController", "senderId"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["C6DIGapp14ViewController", "AnyObject"]
+- !private ["C6DIGapp14ViewController", "Dictionary"]
+- !private ["C6DIGapp14ViewController", "FIRDatabase"]
+- ["C6DIGapp14ViewController", "Int"]
+- ["C6DIGapp14ViewController", "JSQMessage"]
+- ["C6DIGapp14ViewController", "JSQMessageAvatarImageDataSource"]
+- ["C6DIGapp14ViewController", "JSQMessageBubbleImageDataSource"]
+- ["C6DIGapp14ViewController", "JSQMessageData"]
+- !private ["C6DIGapp14ViewController", "JSQMessagesAvatarImageFactory"]
+- !private ["C6DIGapp14ViewController", "JSQMessagesBubbleImageFactory"]
+- ["C6DIGapp14ViewController", "JSQMessagesCollectionView"]
+- !private ["C6DIGapp14ViewController", "JSQMessagesCollectionViewCell"]
+- ["C6DIGapp14ViewController", "NSDate"]
+- ["C6DIGapp14ViewController", "NSIndexPath"]
+- ["C6DIGapp14ViewController", "String"]
+- ["C6DIGapp14ViewController", "UIButton"]
+- ["C6DIGapp14ViewController", "UICollectionView"]
+- ["C6DIGapp14ViewController", "UICollectionViewCell"]
+- !private ["C6DIGapp14ViewController", "UIColor"]
+- !private ["C6DIGapp14ViewController", "UIFont"]
+- ["C6DIGapp14ViewController", "collectionView"]
+- ["C6DIGapp14ViewController", "deinit"]
+- ["C6DIGapp14ViewController", "didPressSendButton"]
+- ["C6DIGapp14ViewController", "init"]
+- !private ["C6DIGapp14ViewController", "inputToolbar"]
+- ["C6DIGapp14ViewController", "messages"]
+- !private ["C6DIGapp14ViewController", "senderDisplayName"]
+- !private ["C6DIGapp14ViewController", "senderId"]
+- ["C6DIGapp14ViewController", "viewDidLoad"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "count"]
+- ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs24_ColorLiteralConvertible", "darkGrayColor"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "lightGrayColor"]
+- !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs21_ObjectiveCBridgeable", "values"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "contentView"]
+- !private ["PSs12_Reflectable", "count"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "reloadData"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs12_Reflectable", "textColor"]
+- !private ["PSs12_Reflectable", "textView"]
+- !private ["PSs12_Reflectable", "values"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- "Sa"
+- "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "VSs19DictionaryGenerator"
+- !private "VSs15DictionaryIndex"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "OSC16FIRDataEventType"
+- !private "CSo15FIRDataSnapshot"
+- !private "CSo11FIRDatabase"
+- !private "CSo16FIRDatabaseQuery"
+- !private "CSo20FIRDatabaseReference"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "CSo10JSQMessage"
+- !private "PSo14JSQMessageData"
+- !private "CSo29JSQMessagesAvatarImageFactory"
+- !private "CSo29JSQMessagesBubbleImageFactory"
+- !private "CSo23JSQMessagesCellTextView"
+- !private "CSo25JSQMessagesCollectionView"
+- !private "CSo29JSQMessagesCollectionViewCell"
+- !private "PSo37JSQMessagesCollectionViewCellDelegate"
+- "PSo35JSQMessagesCollectionViewDataSource"
+- "PSo43JSQMessagesCollectionViewDelegateFlowLayout"
+- !private "CSo27JSQMessagesComposerTextView"
+- !private "CSo23JSQMessagesInputToolbar"
+- !private "CSo29JSQMessagesToolbarContentView"
+- "CSo25JSQMessagesViewController"
+- !private "PSs18LazyCollectionType"
+- !private "VSs17LazyMapCollection"
+- !private "VSs16LazyMapGenerator"
+- !private "PSs16LazySequenceType"
+- !private "PSs14MirrorPathType"
+- "PSs21MutableCollectionType"
+- "PSs16MutableIndexable"
+- "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo11NSIndexPath"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs21RandomAccessIndexType"
+- "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo16UIBarPositioning"
+- !private "CSo24UICollectionReusableView"
+- !private "CSo16UICollectionView"
+- !private "CSo20UICollectionViewCell"
+- "PSo26UICollectionViewDataSource"
+- "PSo24UICollectionViewDelegate"
+- "PSo34UICollectionViewDelegateFlowLayout"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo6UIFont"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- "PSo18UITextViewDelegate"
+- !private "CSo9UIToolbar"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C6DIGapp14ViewController"
+- "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs24_ColorLiteralConvertible"
+- "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/Firebase/Analytics/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreAudio.swiftmodule"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/yoshikik/Documents/my projects/DIGapp/Pods/Firebase/Analytics/Sources/Firebase.h"
+interface-hash: "09ac215e41380e2b6230256dff85b264"

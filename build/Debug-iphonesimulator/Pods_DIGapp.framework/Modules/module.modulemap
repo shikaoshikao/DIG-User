@@ -1,0 +1,6 @@
+framework module Pods_DIGapp {
+  umbrella header "Pods-DIGapp-umbrella.h"
+
+  export *
+  module * { export * }
+}
