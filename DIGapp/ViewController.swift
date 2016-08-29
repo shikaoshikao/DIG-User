@@ -9,8 +9,8 @@ class ViewController: JSQMessagesViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        senderDisplayName = "A"
-        senderId = "Dummy1"
+        senderDisplayName = "C"
+        senderId = "Dummy3"
         let ref = FIRDatabase.database().reference()
         ref.observeEventType(.Value, withBlock: { snapshot in
             guard let dic = snapshot.value as? Dictionary<String, AnyObject> else {

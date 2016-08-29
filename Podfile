@@ -11,6 +11,7 @@ target 'DIGapp' do
     pod ‘JSQMessagesViewController’
     pod 'Firebase'
     pod 'Firebase/Database'
+    pod 'Firebase/Auth'
 
   target 'DIGappTests' do
     inherit! :search_paths
@@ -18,6 +19,7 @@ target 'DIGapp' do
     pod ‘JSQMessagesViewController’
     pod 'Firebase'
     pod 'Firebase/Database'
+    pod 'Firebase/Auth'
   end
 
   target 'DIGappUITests' do

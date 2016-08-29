@@ -22,6 +22,10 @@
 		D4522F721D55C7AF00486579 /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = D4522F711D55C7AF00486579 /* sample.gif */; };
 		D468B55B1D60592200F42A69 /* activitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468B55A1D60592200F42A69 /* activitiesViewController.swift */; };
 		D468B55D1D60593700F42A69 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468B55C1D60593700F42A69 /* chatViewController.swift */; };
+		D4A7DA101D6C1CF400280B9C /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A7DA0F1D6C1CF400280B9C /* signupViewController.swift */; };
+		D4A7DA121D6C1D0000280B9C /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A7DA111D6C1D0000280B9C /* loginViewController.swift */; };
+		D4A7DA141D6C8B0600280B9C /* textViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A7DA131D6C8B0600280B9C /* textViewController.swift */; };
+		D4A7DA181D6CB27F00280B9C /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A7DA171D6CB27F00280B9C /* listViewController.swift */; };
 		F4030E414C87076155B6C66C /* Pods_DIGappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11773D4E46873AFEA017302 /* Pods_DIGappTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +75,10 @@
 		D4522F711D55C7AF00486579 /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
 		D468B55A1D60592200F42A69 /* activitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activitiesViewController.swift; sourceTree = "<group>"; };
 		D468B55C1D60593700F42A69 /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		D4A7DA0F1D6C1CF400280B9C /* signupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		D4A7DA111D6C1D0000280B9C /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		D4A7DA131D6C8B0600280B9C /* textViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textViewController.swift; sourceTree = "<group>"; };
+		D4A7DA171D6CB27F00280B9C /* listViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,11 +158,15 @@
 			isa = PBXGroup;
 			children = (
 				D4522F411D549E5500486579 /* AppDelegate.swift */,
+				D4522F451D549E5500486579 /* Main.storyboard */,
 				D4522F431D549E5500486579 /* homeViewController.swift */,
 				D468B55A1D60592200F42A69 /* activitiesViewController.swift */,
 				D468B55C1D60593700F42A69 /* chatViewController.swift */,
-				D4522F451D549E5500486579 /* Main.storyboard */,
 				D43738751D631F370064138B /* ViewController.swift */,
+				D4A7DA0F1D6C1CF400280B9C /* signupViewController.swift */,
+				D4A7DA111D6C1D0000280B9C /* loginViewController.swift */,
+				D4A7DA131D6C8B0600280B9C /* textViewController.swift */,
+				D4A7DA171D6CB27F00280B9C /* listViewController.swift */,
 				D4522F481D549E5500486579 /* Assets.xcassets */,
 				D4522F4A1D549E5500486579 /* LaunchScreen.storyboard */,
 				D4522F4D1D549E5500486579 /* Info.plist */,
@@ -467,8 +479,12 @@
 				D43738761D631F370064138B /* ViewController.swift in Sources */,
 				D4522F701D55C76100486579 /* UIImage+Gif.swift in Sources */,
 				D468B55D1D60593700F42A69 /* chatViewController.swift in Sources */,
+				D4A7DA141D6C8B0600280B9C /* textViewController.swift in Sources */,
 				D468B55B1D60592200F42A69 /* activitiesViewController.swift in Sources */,
+				D4A7DA121D6C1D0000280B9C /* loginViewController.swift in Sources */,
+				D4A7DA181D6CB27F00280B9C /* listViewController.swift in Sources */,
 				D4522F441D549E5500486579 /* homeViewController.swift in Sources */,
+				D4A7DA101D6C1CF400280B9C /* signupViewController.swift in Sources */,
 				D4522F421D549E5500486579 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

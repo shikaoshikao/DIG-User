@@ -1,6 +1,0 @@
-framework module Pods_DIGappTests {
-  umbrella header "Pods-DIGappTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
