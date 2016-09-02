@@ -1,14 +1,15 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
 options: "9558fee331dc462378210c0ba8d14413"
-build_time: [525663467, 339712000]
+build_time: [526109142, 974747000]
 inputs:
-  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/ViewController.swift": [525246128, 0]
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/ListTableViewCell.swift": [524368446, 0]
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/ViewController.swift": [526109142, 0]
   "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/UIImage+Gif.swift": [512082000, 0]
   "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/chatViewController.swift": [524475959, 0]
   "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/textViewController.swift": [525600491, 0]
   "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/activitiesViewController.swift": [524475938, 0]
   "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/loginViewController.swift": [525287392, 0]
-  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/listViewController.swift": !dirty [525600761, 0]
+  "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/listViewController.swift": [525945180, 0]
   "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/homeViewController.swift": [525287392, 0]
   "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/signupViewController.swift": [525287392, 0]
   "/Users/yoshikik/Documents/my projects/DIGapp/DIGapp/AppDelegate.swift": [524658822, 0]

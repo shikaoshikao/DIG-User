@@ -54,7 +54,7 @@ class listViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     //返すセルを決める
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = table.dequeueReusableCellWithIdentifier("ListCell") as! listTableViewCell
+        let cell = table.dequeueReusableCellWithIdentifier("ListCell") as! ListTableViewCell
         //ここから追加
         //配列の該当のデータをitemという定数に代入
         let item = contentArray[indexPath.row]

@@ -9,16 +9,16 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 - "didReceiveMemoryWarning"
 depends-top-level:
+- "NSCoder"
+- !private "CGRect"
+- "homeViewController"
+- !private "CGRectMake"
+- !private "UILabel"
+- "UIViewController"
+- !private "UIImage"
 - !private "StringLiteralType"
 - !private "UIImageView"
 - !private "UIColor"
-- "homeViewController"
-- !private "UILabel"
-- "UIViewController"
-- !private "CGRect"
-- !private "CGRectMake"
-- "NSCoder"
-- !private "UIImage"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "CGRectMake"]

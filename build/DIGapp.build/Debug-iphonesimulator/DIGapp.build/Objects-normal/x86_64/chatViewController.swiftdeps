@@ -6,8 +6,8 @@ provides-nominal:
 provides-member:
 - ["C6DIGapp18chatViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
 - "UIViewController"
 - "chatViewController"
